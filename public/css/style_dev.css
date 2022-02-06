@@ -521,6 +521,13 @@ h1 {
   position: relative;
 }
 
+<<<<<<< HEAD
+=======
+.left-10 {
+  left: 2.5rem;
+}
+
+>>>>>>> 3eb850ce1ffaacf03a65f6c86ae2665fbd9acf2c
 .right-2 {
   right: 0.5rem;
 }
@@ -537,6 +544,7 @@ h1 {
   top: 0px;
 }
 
+<<<<<<< HEAD
 .bottom-9 {
   bottom: 2.25rem;
 }
@@ -553,10 +561,13 @@ h1 {
   bottom: -1rem;
 }
 
+=======
+>>>>>>> 3eb850ce1ffaacf03a65f6c86ae2665fbd9acf2c
 .z-50 {
   z-index: 50;
 }
 
+<<<<<<< HEAD
 .z-20 {
   z-index: 20;
 }
@@ -569,6 +580,8 @@ h1 {
   z-index: -10;
 }
 
+=======
+>>>>>>> 3eb850ce1ffaacf03a65f6c86ae2665fbd9acf2c
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
@@ -576,6 +589,7 @@ h1 {
 
 .mt-7 {
   margin-top: 1.75rem;
+<<<<<<< HEAD
 }
 
 .mb-2 {
@@ -604,24 +618,36 @@ h1 {
 
 .mt-4 {
   margin-top: 1rem;
+=======
+}
+
+.mb-2 {
+  margin-bottom: 0.5rem;
+>>>>>>> 3eb850ce1ffaacf03a65f6c86ae2665fbd9acf2c
 }
 
 .mt-8 {
   margin-top: 2rem;
 }
 
+<<<<<<< HEAD
 .block {
   display: block;
 }
 
 .inline-block {
   display: inline-block;
+=======
+.mt-96 {
+  margin-top: 24rem;
+>>>>>>> 3eb850ce1ffaacf03a65f6c86ae2665fbd9acf2c
 }
 
 .flex {
   display: flex;
 }
 
+<<<<<<< HEAD
 .grid {
   display: grid;
 }
@@ -648,6 +674,12 @@ h1 {
   height: max-content;
 }
 
+=======
+.h-0 {
+  height: 0px;
+}
+
+>>>>>>> 3eb850ce1ffaacf03a65f6c86ae2665fbd9acf2c
 .w-full {
   width: 100%;
 }
@@ -656,6 +688,7 @@ h1 {
   width: 1.75rem;
 }
 
+<<<<<<< HEAD
 .-translate-x-full {
   --tw-translate-x: -100%;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
@@ -711,6 +744,8 @@ h1 {
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
+=======
+>>>>>>> 3eb850ce1ffaacf03a65f6c86ae2665fbd9acf2c
 .scale-x-\[2\.5\] {
   --tw-scale-x: 2.5;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
@@ -725,6 +760,7 @@ h1 {
   cursor: pointer;
 }
 
+<<<<<<< HEAD
 .grid-cols-2 {
   grid-template-columns: repeat(2, minmax(0, 1fr));
 }
@@ -733,6 +769,8 @@ h1 {
   grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 
+=======
+>>>>>>> 3eb850ce1ffaacf03a65f6c86ae2665fbd9acf2c
 .flex-col {
   flex-direction: column;
 }
@@ -741,10 +779,13 @@ h1 {
   align-items: center;
 }
 
+<<<<<<< HEAD
 .justify-center {
   justify-content: center;
 }
 
+=======
+>>>>>>> 3eb850ce1ffaacf03a65f6c86ae2665fbd9acf2c
 .justify-around {
   justify-content: space-around;
 }
@@ -769,10 +810,13 @@ h1 {
   border-radius: 0.25rem;
 }
 
+<<<<<<< HEAD
 .rounded-md {
   border-radius: 0.375rem;
 }
 
+=======
+>>>>>>> 3eb850ce1ffaacf03a65f6c86ae2665fbd9acf2c
 .border-4 {
   border-width: 4px;
 }
@@ -781,10 +825,13 @@ h1 {
   border-width: 2px;
 }
 
+<<<<<<< HEAD
 .border {
   border-width: 1px;
 }
 
+=======
+>>>>>>> 3eb850ce1ffaacf03a65f6c86ae2665fbd9acf2c
 .border-slate-800 {
   --tw-border-opacity: 1;
   border-color: rgb(30 41 59 / var(--tw-border-opacity));
@@ -815,6 +862,7 @@ h1 {
   background-color: rgb(203 213 225 / var(--tw-bg-opacity));
 }
 
+<<<<<<< HEAD
 .bg-blue-600 {
   --tw-bg-opacity: 1;
   background-color: rgb(37 99 235 / var(--tw-bg-opacity));
@@ -864,6 +912,8 @@ h1 {
   --tw-bg-opacity: 0.4;
 }
 
+=======
+>>>>>>> 3eb850ce1ffaacf03a65f6c86ae2665fbd9acf2c
 .bg-gradient-to-r {
   background-image: linear-gradient(to right, var(--tw-gradient-stops));
 }
@@ -915,10 +965,13 @@ h1 {
   background-position: center;
 }
 
+<<<<<<< HEAD
 .p-1 {
   padding: 0.25rem;
 }
 
+=======
+>>>>>>> 3eb850ce1ffaacf03a65f6c86ae2665fbd9acf2c
 .px-6 {
   padding-left: 1.5rem;
   padding-right: 1.5rem;
@@ -934,6 +987,7 @@ h1 {
   padding-right: 1rem;
 }
 
+<<<<<<< HEAD
 .px-3 {
   padding-left: 0.75rem;
   padding-right: 0.75rem;
@@ -981,6 +1035,12 @@ h1 {
   padding-top: 0.75rem;
 }
 
+=======
+.pt-96 {
+  padding-top: 24rem;
+}
+
+>>>>>>> 3eb850ce1ffaacf03a65f6c86ae2665fbd9acf2c
 .text-center {
   text-align: center;
 }
@@ -1014,10 +1074,13 @@ h1 {
   font-weight: 700;
 }
 
+<<<<<<< HEAD
 .capitalize {
   text-transform: capitalize;
 }
 
+=======
+>>>>>>> 3eb850ce1ffaacf03a65f6c86ae2665fbd9acf2c
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
@@ -1036,12 +1099,15 @@ h1 {
   opacity: 0;
 }
 
+<<<<<<< HEAD
 .ring-2 {
   --tw-ring-offset-shadow: var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);
   --tw-ring-shadow: var(--tw-ring-inset) 0 0 0 calc(2px + var(--tw-ring-offset-width)) var(--tw-ring-color);
   box-shadow: var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000);
 }
 
+=======
+>>>>>>> 3eb850ce1ffaacf03a65f6c86ae2665fbd9acf2c
 .duration-150 {
   transition-duration: 150ms;
 }
@@ -1050,6 +1116,7 @@ h1 {
   transition-duration: 75ms;
 }
 
+<<<<<<< HEAD
 .duration-500 {
   transition-duration: 500ms;
 }
@@ -1064,6 +1131,10 @@ h1 {
 
 .duration-200 {
   transition-duration: 200ms;
+=======
+.duration-75 {
+  transition-duration: 75ms;
+>>>>>>> 3eb850ce1ffaacf03a65f6c86ae2665fbd9acf2c
 }
 
 .duration-700 {
@@ -1125,6 +1196,10 @@ h1 {
 .before\:opacity-60::before {
   content: var(--tw-content);
   opacity: 0.6;
+}
+
+.duration-100 {
+  transition-duration: 100ms;
 }
 
 .first\:pt-3:first-child {
@@ -1217,9 +1292,12 @@ h1 {
     position: static;
   }
 
-  .sm\:sticky {
-    position: -webkit-sticky;
-    position: sticky;
+  .sm\:absolute {
+    position: absolute;
+  }
+
+  .sm\:flex {
+    display: flex;
   }
 
   .sm\:flex {
@@ -1238,6 +1316,7 @@ h1 {
     height: 20rem;
   }
 
+<<<<<<< HEAD
   .sm\:w-1\/2 {
     width: 50%;
   }
@@ -1254,6 +1333,16 @@ h1 {
     flex-direction: row;
   }
 
+=======
+  .sm\:flex-row {
+    flex-direction: row;
+  }
+
+  .sm\:justify-around {
+    justify-content: space-around;
+  }
+
+>>>>>>> 3eb850ce1ffaacf03a65f6c86ae2665fbd9acf2c
   .sm\:bg-transparent {
     background-color: transparent;
   }
@@ -1277,8 +1366,13 @@ h1 {
 }
 
 @media (min-width: 768px) {
+<<<<<<< HEAD
   .md\:h-96 {
     height: 24rem;
+=======
+  .md\:opacity-0 {
+    opacity: 0;
+>>>>>>> 3eb850ce1ffaacf03a65f6c86ae2665fbd9acf2c
   }
 }
 

@@ -13,6 +13,7 @@ $('#nav-toogle :checkbox').change(function() {
     }
 });
 
+
 // navbar scrollspy
 let navScroll = $('nav').offset().top;
 $(window).scroll(function() {
@@ -26,6 +27,15 @@ $(window).scroll(function() {
         $('nav').addClass('fixed top-0 bg-slate-300');
         $('nav').removeClass('relative');
     }
+    console.log(scroll);
 
+    // social icon
+    if ($('.social-icons').offset().top - 450) {
+        $('.social-icon').each((i) => {
+            setTimeout(() => {
+                $('.social-icon').eq(i).removeClass('-translate-y-36 opacity-0')
+            }, 400 * (i + 1));
+        });
+    }
 
 });

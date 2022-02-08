@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="">
 
 <head>
     <meta charset="UTF-8">
@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="icon/all.min.css">
 </head>
 
-<body>
+<body class="capitalize dark:bg-slate-900 dark:text-white">
     <!-- header -->
     <header class="w-full bg-slate-500 px-6 py-2 text-white">
         <div class="container">
@@ -42,16 +42,16 @@
             <div class="sm:flex sm:justify-around ">
                 <div id="nav-toogle" class="sm:hidden flex flex-col gap-1 w-7 mx-auto relative mb-2">
                     <input type="checkbox" class="peer absolute scale-x-[2.5] scale-y-[2.2] opacity-0 right-2 top-1 cursor-pointer mb-2 z-50">
-                    <span class="border-2 border-slate-800 w-full peer-checked:rotate-45 peer-checked:translate-y-2 duration-75 mt-2"></span>
-                    <span class="border-2 border-slate-800 w-full peer-checked:opacity-0"></span>
-                    <span class="border-2 border-slate-800 w-full peer-checked:-rotate-45 peer-checked:-translate-y-2  duration-75"></span>
+                    <span class="border-2 border-slate-800 dark:border-white w-full peer-checked:rotate-45 peer-checked:translate-y-2 duration-75 mt-2"></span>
+                    <span class="border-2 border-slate-800 dark:border-white w-full peer-checked:opacity-0"></span>
+                    <span class="border-2 border-slate-800 dark:border-white w-full peer-checked:-rotate-45 peer-checked:-translate-y-2  duration-75"></span>
                 </div>
                 <div class="flex justify-center opacity-0 sm:opacity-100 duration-500 sm:w-1/2 xl:w-1/3" id="navbar">
-                    <ul class="flex flex-col gap-2 justify-evenly absolute w-full sm:text-slate-800 sm:flex-row sm:bg-transparent sm:static sm:h-auto px-4 bg-slate-100 text-xl last:pb-3 first:pt-3 sm:last:pb-0 sm:first:pt-0 duration-100 h-0 overflow-hidden ">
+                    <ul class="flex flex-col gap-2 justify-evenly absolute w-full sm:text-slate-800 sm:flex-row sm:bg-transparent sm:static sm:h-auto px-4 bg-slate-100 text-xl last:pb-3 first:pt-3 sm:last:pb-0 sm:first:pt-0 duration-100 h-0 overflow-hidden dark:bg-slate-500">
                         <li class="bg-blue-100 p-1 rounded text-slate-700"><a href="#">Home</a></li>
-                        <li class="hover:bg-blue-100 p-1 rounded hover:text-slate-700 duration-300"><a href="#">About</a></li>
-                        <li class="hover:bg-blue-100 p-1 rounded hover:text-slate-700 duration-300"><a href="#">Gallery</a></li>
-                        <li class="hover:bg-blue-100 p-1 rounded hover:text-slate-700 duration-300"><a href="#">Contact</a></li>
+                        <li class="hover:bg-blue-100 p-1 rounded hover:text-slate-700 duration-300 dark:text-white"><a href="#">About</a></li>
+                        <li class="hover:bg-blue-100 p-1 rounded hover:text-slate-700 duration-300 dark:text-white"><a href="#">Gallery</a></li>
+                        <li class="hover:bg-blue-100 p-1 rounded hover:text-slate-700 duration-300 dark:text-white"><a href="#">Contact</a></li>
                     </ul>
                 </div>
             </div>
@@ -73,40 +73,70 @@
     </div>
     <!-- akhir hero section -->
 
+    <!-- halaman pengenalan -->
+    <section class="container mt-20">
+        <div class="row">
+            <div class="border py-7 shadow-md px-5 rounded dark:bg-slate-700 dark:border-slate-800">
+                <div class="grid sm:grid-cols-2 gap-4">
+                    <div class="flex justify-center">
+                        <img src="img/istockphoto-1288538088-170667a.jpg" alt="">
+                    </div>
+                    <div id="greeting" class="py-12 flex flex-col justify-between">
+                        <div class="leading-loose">
+                            <span class="text-2xl relative before:border before:absolute before:w-1/2 before:border-blue-500 before:-bottom-1 ">Hi, My name is</span>
+                            <h1 class="font-bold text-5xl mt-1 bg-gradient-to-b from-indigo-600 to-purple-700 bg-clip-text text-transparent -translate-y-11 opacity-0 duration-500">M. Aldi Firmansyah</h1>
+                            <p class="text-2xl mt-3">agent <span class="font-bold text-sky-400">tour</span> and <span class="font-bold text-indigo-600">travel</span></p>
+                        </div>
+                        <div class="mt-12 lg:mt-0">
+                            <a href="#" class="border p-2 rounded bg-sky-500 text-white hover:bg-sky-300 duration-200 dark:border-slate-800">Lihat tentangku <i class="fas fa-arrow-alt-circle-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- akhir halaman pengenalan -->
+
     <!-- social icon -->
-    <div class="container md:px-8 px-2 mt-8 social-icons">
-        <div class="border bg-slate-100 rounded-xl p-3 shadow-md overflow-hidden">
+    <div class="container md:px-8 px-2 mt-20 social-icons">
+        <div class="border rounded-xl p-3 shadow-md overflow-hidden dark:border-slate-800 dark:bg-slate-700">
             <div class="text-center mb-3">
                 <h1 class="font-bold">Follow me</h1>
             </div>
-            <div class="grid sm:grid-cols-3 gap-6 px-10 py-4 sm:p-0">
-                <div class="social-icon bg-white rounded-md px-3 py-2 shadow-lg group hover:bg-slate-500 cursor-pointer duration-500 -translate-y-36 opacity-0">
+            <div class="grid sm:grid-cols-3 gap-6 px-10 py-4 sm:p-0 text-white">
+                <!-- facebook -->
+                <div class="social-icon bg-gradient-to-b from-blue-800 to-blue-600 rounded-md px-3 py-2 shadow-lg  hover:opacity-80 hover:-translate-y-3 hover:shadow-xl cursor-pointer duration-500 -translate-y-36 opacity-0">
                     <div class="grid lg:grid-cols-2 grid-cols-1">
-                        <div class="text-center ">
+                        <div class="text-center my-auto">
                             <i class="fab fa-facebook fa-5x"></i>
                         </div>
-                        <div class="flex items-center justify-center mt-2 md:mt-0 group-hover:text-slate-200 duration-150 text-center md:text-left">
-                            <p>Lorem ipsum, dolor sit amet totam. Lorem, ipsum dolor.</p>
+                        <div class="flex flex-col justify-center mt-2 md:mt-0 duration-150 text-center lg:text-left">
+                            <h2 class="text-2xl font-bold">Facebook</h2>
+                            <p>Ikuti saya di <a href="#" class="">facebook</a></p>
                         </div>
                     </div>
                 </div>
-                <div class="social-icon bg-white rounded-md px-3 py-2 shadow-lg group hover:bg-slate-500 cursor-pointer duration-500 -translate-y-36 opacity-0">
+                <!-- instagram -->
+                <div class="social-icon rounded-md px-3 py-2 shadow-lg cursor-pointer duration-500 bg-gradient-to-r from-purple-600 to-indigo-800 hover:opacity-80 hover:-translate-y-3 hover:shadow-xl opacity-0 -translate-y-36">
                     <div class="grid lg:grid-cols-2">
-                        <div class="text-center ">
+                        <div class="text-center my-auto">
                             <i class="fab fa-instagram fa-5x"></i>
                         </div>
-                        <div class="flex items-center justify-center mt-2 md:mt-0 group-hover:text-slate-200 duration-150 text-center md:text-left">
-                            <p>Lorem ipsum, dolor sit amet totam. Lorem, ipsum dolor.</p>
+                        <div class="flex flex-col justify-center mt-2 md:mt-0  duration-150 text-center lg:text-left">
+                            <h2 class="text-2xl font-bold">instagram</h2>
+                            <p>Ikuti saya di <a href="#" class="">instagram</a></p>
                         </div>
                     </div>
                 </div>
-                <div class="social-icon bg-white rounded-md px-3 py-2 shadow-lg group hover:bg-slate-500 cursor-pointer duration-500 -translate-y-36 opacity-0">
+                <!-- github -->
+                <div class="social-icon rounded-md px-3 py-2 shadow-lg cursor-pointer duration-500 bg-gradient-to-b from-slate-700 to-slate-500 hover:opacity-80 hover:-translate-y-3 hover:shadow-xl opacity-0 -translate-y-36">
                     <div class="grid lg:grid-cols-2">
-                        <div class="text-center ">
+                        <div class="text-center my-auto">
                             <i class="fab fa-github fa-5x"></i>
                         </div>
-                        <div class="flex items-center justify-center mt-2 md:mt-0 group-hover:text-slate-200 duration-150 text-center md:text-left">
-                            <p>Lorem ipsum, dolor sit amet totam. Lorem, ipsum dolor.</p>
+                        <div class="flex flex-col justify-center mt-2 md:mt-0  duration-150 text-center lg:text-left">
+                            <h2 class="text-2xl font-bold">github</h2>
+                            <p>Ikuti saya di <a href="#" class="">github</a></p>
                         </div>
                     </div>
                 </div>
@@ -115,8 +145,16 @@
     </div>
     <!-- akhir social icon -->
 
-    <div class="mt-96"></div>
-
+    <!-- footer -->
+    <footer class="mt-20 py-8 bg-slate-300 dark:bg-slate-800">
+        <div class="container">
+            <div class="flex flex-col text-center">
+                <span>&copy Copyright 2022</span>
+                <span>this portfolio build with <i class="fas fa-heart text-red-600"></i> by <a href="https://github.com/Herdi7" class="text-blue-600 hover:text-indigo-600">Herdi Apriansyah</a> <i class="fab fa-github"></i></span>
+            </div>
+        </div>
+    </footer>
+    <!-- akhir footer -->
 
 
 

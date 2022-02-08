@@ -21,21 +21,25 @@ $(window).scroll(function() {
 
     // navbar
     if (scroll < navScroll) {
-        $('nav').removeClass('fixed top-0 bg-slate-300');
+        $('nav').removeClass('fixed top-0 bg-slate-300 dark:bg-slate-500');
         $('nav').addClass('relative');
     } else {
-        $('nav').addClass('fixed top-0 bg-slate-300');
+        $('nav').addClass('fixed top-0 bg-slate-300 dark:bg-slate-500');
         $('nav').removeClass('relative');
     }
-    console.log(scroll);
 
     // social icon
-    if ($('.social-icons').offset().top - 450) {
+    if (scroll > $('.social-icons').offset().top - 500) {
         $('.social-icon').each((i) => {
             setTimeout(() => {
                 $('.social-icon').eq(i).removeClass('-translate-y-36 opacity-0')
             }, 400 * (i + 1));
         });
+    }
+
+    // greeting
+    if (scroll > $('#greeting').offset().top - 450) {
+        $('#greeting h1').removeClass('-translate-y-11 opacity-0')
     }
 
 });

@@ -1370,8 +1370,17 @@ h1 {
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgb(129 140 248 / 0));
 }
 
+.hover\:from-indigo-500:hover {
+  --tw-gradient-from: #6366f1;
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgb(99 102 241 / 0));
+}
+
 .hover\:to-red-300:hover {
   --tw-gradient-to: #fca5a5;
+}
+
+.hover\:to-red-400:hover {
+  --tw-gradient-to: #f87171;
 }
 
 .hover\:text-slate-700:hover {

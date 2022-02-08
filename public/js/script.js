@@ -13,14 +13,20 @@ $('#nav-toogle :checkbox').change(function() {
     }
 });
 
+// jarak social media di berbagai device
+if (window.matchMedia("(min-width: 768px)").matches && window.matchMedia("(max-width: 800px)").matches) {
+    var $size = 900;
+} else {
+    var $size = 500;
+}
 
 // navbar scrollspy
-let navScroll = $('nav').offset().top;
+let $navScroll = $('nav').offset().top;
 $(window).scroll(function() {
     let scroll = $(this).scrollTop();
 
     // navbar
-    if (scroll < navScroll) {
+    if (scroll < $navScroll) {
         $('nav').removeClass('fixed top-0 bg-slate-300 dark:bg-slate-500');
         $('nav').addClass('relative');
     } else {
@@ -28,18 +34,18 @@ $(window).scroll(function() {
         $('nav').removeClass('relative');
     }
 
-    // social icon
-    if (scroll > $('.social-icons').offset().top - 500) {
-        $('.social-icon').each((i) => {
-            setTimeout(() => {
-                $('.social-icon').eq(i).removeClass('-translate-y-36 opacity-0')
-            }, 400 * (i + 1));
-        });
-    }
 
     // greeting
     if (scroll > $('#greeting').offset().top - 450) {
         $('#greeting h1').removeClass('-translate-y-11 opacity-0')
     }
 
+    // social icon
+    if (scroll > $('.social-icons').offset().top - $size) {
+        $('.social-icon').each((i) => {
+            setTimeout(() => {
+                $('.social-icon').eq(i).removeClass('-translate-y-36 opacity-0')
+            }, 400 * (i + 1));
+        });
+    }
 });

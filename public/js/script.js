@@ -23,10 +23,10 @@ if (window.matchMedia("(min-width: 768px)").matches && window.matchMedia("(max-w
 // navbar scrollspy
 let $navScroll = $('nav').offset().top;
 $(window).scroll(function() {
-    let scroll = $(this).scrollTop();
+    let $scroll = $(this).scrollTop();
 
     // navbar
-    if (scroll < $navScroll) {
+    if ($scroll < $navScroll) {
         $('nav').removeClass('fixed top-0 bg-slate-300 dark:bg-slate-500');
         $('nav').addClass('relative');
     } else {
@@ -36,15 +36,15 @@ $(window).scroll(function() {
 
 
     // greeting
-    if (scroll > $('#greeting').offset().top - 450) {
+    if ($scroll > $('#greeting').offset().top - 450) {
         $('#greeting h1').removeClass('-translate-y-11 opacity-0')
     }
 
     // social icon
-    if (scroll > $('.social-icons').offset().top - $size) {
-        $('.social-icon').each((i) => {
+    if ($scroll > $('.info-icons').offset().top - $size) {
+        $('.info-icon').each((i) => {
             setTimeout(() => {
-                $('.social-icon').eq(i).removeClass('-translate-y-36 opacity-0')
+                $('.info-icon').eq(i).removeClass('-translate-y-36 opacity-0')
             }, 400 * (i + 1));
         });
     }

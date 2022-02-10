@@ -48,4 +48,16 @@ $(window).scroll(function() {
             }, 400 * (i + 1));
         });
     }
+
+
 });
+// dark mode
+$('#switch').change(function() {
+    if (this.checked) {
+        $('#check-mode').addClass('translate-x-4');
+        $('html').addClass('dark');
+    } else {
+        $('#check-mode').removeClass('translate-x-4');
+        $('html').removeClass('dark');
+    }
+})
